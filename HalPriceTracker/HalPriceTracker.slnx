@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="HalPriceTracker.Api/HalPriceTracker.Api.csproj" />
+  <Project Path="HalPriceTracker.Bussiness/HalPriceTracker.Bussiness.csproj" />
+  <Project Path="HalPriceTracker.DataAccess/HalPriceTracker.DataAccess.csproj" />
+  <Project Path="HalPriceTracker.Models/HalPriceTracker.Models.csproj" />
+  <Project Path="HalPriceTracker.Tests/HalPriceTracker.Tests.csproj" />
+</Solution>

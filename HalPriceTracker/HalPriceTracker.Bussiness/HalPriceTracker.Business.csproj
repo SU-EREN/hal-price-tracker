@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HalPriceTracker.DataAccess\HalPriceTracker.DataAccess.csproj" />
+    <ProjectReference Include="..\HalPriceTracker.Models\HalPriceTracker.Models.csproj" />
+  </ItemGroup>
+
+</Project>

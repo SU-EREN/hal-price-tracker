@@ -10,4 +10,10 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.13" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HalPriceTracker.Bussiness\HalPriceTracker.Business.csproj" />
+    <ProjectReference Include="..\HalPriceTracker.DataAccess\HalPriceTracker.DataAccess.csproj" />
+    <ProjectReference Include="..\HalPriceTracker.Models\HalPriceTracker.Models.csproj" />
+  </ItemGroup>
+
 </Project>

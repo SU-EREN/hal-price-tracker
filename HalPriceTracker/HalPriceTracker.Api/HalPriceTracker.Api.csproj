@@ -4,14 +4,18 @@
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>36346ec2-8341-437e-bd30-116b69a8bd6c</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.13">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HalPriceTracker.Bussiness\HalPriceTracker.Business.csproj" />
     <ProjectReference Include="..\HalPriceTracker.DataAccess\HalPriceTracker.DataAccess.csproj" />
     <ProjectReference Include="..\HalPriceTracker.Models\HalPriceTracker.Models.csproj" />
   </ItemGroup>

@@ -22,8 +22,6 @@ namespace HalPriceTracker.DataAccess.Data
                 .HasIndex(p => p.SourceProductId)
                     .IsUnique();
 
-
-
             modelBuilder.Entity<Price>()
                 .HasIndex(p => new { p.ProductId, p.Date })
                     .IsUnique();

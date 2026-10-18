@@ -15,7 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HalPriceTracker.Bussiness\HalPriceTracker.Business.csproj" />
     <ProjectReference Include="..\HalPriceTracker.Models\HalPriceTracker.Models.csproj" />
   </ItemGroup>
 
